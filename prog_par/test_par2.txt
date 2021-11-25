@@ -1,0 +1,4 @@
+{
+if (str[i] == '*' && str[i + VAILD] == '/')
+break;
+}
