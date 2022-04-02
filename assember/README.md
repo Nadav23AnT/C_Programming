@@ -52,11 +52,11 @@ The commands allowed in bits 6-9 are:
 
 | Opcode (decimal) | Command Name | opcode | func |
 | ---------------- | ------------ || ------------ || ------------ |
-|	0	|	mov	| 0 | ------------ |
-|	1	|	cmp	| 1 | ------------ |
+|	0	|	mov	| 0 | 
+|	1	|	cmp	| 1 |
 |	2	|	add	| 2 | 10 |
 |	3	|	sub	| 2 | 11 |
-|	4	|	lea	| 4 | ------------ |
+|	4	|	lea	| 4 | 
 |	5	|	clr	| 5 | 10 |
 |	6	|	not	| 5 | 11 |
 |	7	|	inc	| 5 | 12 |
@@ -64,10 +64,10 @@ The commands allowed in bits 6-9 are:
 |	9	|	jmp	| 9 | 10 |
 |	10	|	bne	| 9 | 11 |
 |	11	|	jsr	| 9 | 12 |
-|	12	|	red	| 12 | ------------ |
-|	13	|	prn	| 13 | ------------ |
-|	14	|	rts	| 14 | ------------ |
-|	15	|	stop	| 15 | ------------ |
+|	12	|	red	| 12 |
+|	13	|	prn	| 13 | 
+|	14	|	rts	| 14 | 
+|	15	|	stop	| 15 |
 
 ## Directives
 A **_directive_** line of the following structure:
