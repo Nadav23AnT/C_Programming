@@ -51,7 +51,7 @@ The first word is of the following structure:
 The commands allowed in bits 6-9 are:
 
 | Opcode (decimal) | Command Name | opcode | func |
-| ---------------- | ------------ || ------------ || ------------ |
+| ---------------- | ------------ |
 |	0	|	mov	| 0 | 
 |	1	|	cmp	| 1 |
 |	2	|	add	| 2 | 10 |
